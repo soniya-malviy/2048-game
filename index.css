@@ -22,3 +22,46 @@ h1 {
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 456px;
+  height: 456px;
+  background-color: #BBADA0;
+  border: 7px solid #BBADA0;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  border-radius: 3px;
+  background-color: #EEE4DA;
+  color: #afa192;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.6;
+}
+
+.score-container, button{
+  text-align: center;
+  height: 60px;
+  border-radius: 3px;
+  background-color: #8f7a66;
+  color: #FFFFFF;
+}
+.score-container {
+ width: 70px
+}
+
+#score {
+  font-size: 30px;
+}
+
+.score-title, #restart-button {
+  font-size: 16px;
+}
